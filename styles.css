@@ -1,36 +1,5 @@
-body {
-    font-family: Arial sans-serif;
-    background-color: #fafafa;
-}
-
-.header {
-    background-color: rgb(45, 87, 202);
-    color: white;
-    text-align: center;
-    padding: 20xp;
-}
-
-.nav {
+.content {
     display: flex;
+    flex-direction: now;
     justify-content: center;
-}
-
-.nav ul {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 38px;
-}
-
-.main-content {
-    padding: 20xp;
-    text-align: justify;
-}
-
-.footer {
-    padding: 0.8;
-}
-
-.footer p {
-    opacity:0.8;
 }
