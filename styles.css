@@ -1,5 +1,32 @@
-.content {
+body {
+    background-color: gray;
+    font-family: Arial, san-serif;
+}
+
+.header {
     display: flex;
-    flex-direction: now;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6cd6c1;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: #91c4c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
