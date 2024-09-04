@@ -1,32 +1,85 @@
 body {
-    background-color: gray;
-    font-family: Arial, san-serif;
+font-family: Arial, san-serif;
+margin:0;
+padding: 0;
+background-color: #f4f4f4;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
-
 .header {
+    background-color: #555;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+main {
+    flex: 1;
+    padding: 80px 20px 40 px;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20xp;
+    max-width: 1200xp;
+}
+.movie {
+    background-color: #fff;
+    border-radius: 8xp;
+    box-shadow: 0px 4px 8px black;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    background-color: #6cd6c1;
-    color: white;
-    padding: 15px;
+    padding-bottom: 20xp;
 }
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+.movie img {
+width: 100xp;
+height: 320xp;
 }
-
-.menu {
-    display: flex;
-    gap: 20px;
+.movie h2 {
+    font-size: 15px;
+    margin: 10xp 0;
 }
-
-.login-btn {
-    padding: 10px 20px;
-    background-color: #91c4c7;
-    color: white;
+.movie p {
+    font-size: 12px;
+    color: #666;
+    padding: 0 10px 20px;
+}
+footer {
+    background-color: #3333;
+    color: #ffff;
+    text-align: center;
+    padding: 10xp 0xp;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+button {
+    background-color: #333;
+    color: #ffff;
     border: none;
-    border-radius: 5px;
+    padding: 10xp 20xp;
+    margin-top: auto;
     cursor: pointer;
+    border-radius: 5xp;
+    font-size: 12 xp;
+    margin-bottom: 3xp;
+    margin-left: 10xp;
+    margin-right: 10xp;
 }
